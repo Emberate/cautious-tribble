@@ -1,5 +1,5 @@
 # Use a more specific Node.js version instead of 'latest'
-FROM node:14
+FROM node:latest
 
 # Set the working directory to /app
 WORKDIR /app
