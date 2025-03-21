@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 5173
 
 # Set the default command to run when the container starts
-CMD ["npm", "run", "dev"]
+CMD ["npm", "run", "dev", "--", "--host"]
